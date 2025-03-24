@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'MyAngular';
+  imageURL = '../assets/BL_logo_square_png.png';
 
   ngOnInit(): void {
     console.log('Hello from ngOnInit');
